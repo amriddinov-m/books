@@ -1,0 +1,7 @@
+{% load easy_maps_tags %}
+
+<!-- Default map with 300x400 dimensions -->
+{% easy_map "Russia, Ekaterinburg, Mira 32" 300 400 %}
+
+<!-- Variable address, custom detail level and custom template -->
+{% easy_map address 200 200 5 using "oauth.html" %}
